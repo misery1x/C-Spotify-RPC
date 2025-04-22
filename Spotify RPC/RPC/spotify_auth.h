@@ -13,8 +13,8 @@ using json = nlohmann::json;
 class SpotifyAuth
 {
 private:
-    const std::string client_id = "979d290b1eb74f56a3953f2727ec224e"; // Developer client ID
-    const std::string client_secret = "cdcfb055d6004e25b3b7e7072266b72b"; // Developer client secret here
+    const std::string client_id = ""; // Developer client ID
+    const std::string client_secret = ""; // Developer client secret here
     const std::string redirect_uri = "http://localhost:8888/callback";
     const std::string auth_endpoint = "https://accounts.spotify.com/authorize";
     const std::string token_endpoint = "https://accounts.spotify.com/api/token";
